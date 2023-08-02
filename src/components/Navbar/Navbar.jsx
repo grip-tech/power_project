@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import downArrow from "../../assets/png/down-arrow.png";
 import logo from "../../assets/png/logo.png";
+
 
 export default function Navbar() {
   return (
@@ -14,37 +16,37 @@ export default function Navbar() {
 
       <ul className="navLinks">
         <li className="navItem">
-          <a href="">HOME</a>
+          <Link to="/">HOME</Link>
         </li>
         <li className="navItem">
-          <a href="">
+          <Link to="/products">
             PRODUCTS <img src={downArrow} width={10} alt="arrow_down" />
-          </a>
+          </Link>
         </li>
         <li className="navItem">
-          <a href="">
+          <Link to="/solutions">
             SOLUTIONS <img src={downArrow} width={10} alt="arrow_down" />
-          </a>
+          </Link>
         </li>
         <li className="navItem">
-          <a href="">
+          <Link to="/resource">
             RESOURCE <img src={downArrow} width={10} alt="arrow_down" />
-          </a>
+          </Link>
         </li>
         <li className="navItem">
-          <a href="">
+          <Link to="/support">
             SUPPORT <img src={downArrow} width={10} alt="arrow_down" />
-          </a>
+          </Link>
         </li>
         <li className="navItem">
-          <a href="">
+          <Link to="/about">
             ABOUT <img src={downArrow} width={10} alt="arrow_down" />
-          </a>
+          </Link>
         </li>
         <li className="navItem">
-          <a href="">
+          <Link to="/contact">
             CONTACT <img src={downArrow} width={10} alt="arrow_down" />
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
