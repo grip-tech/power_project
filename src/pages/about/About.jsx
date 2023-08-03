@@ -1,8 +1,11 @@
 import React from 'react'
+import Main from '../../components/Main/Main'
 
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <Main about/>
+    </div>
   )
 }
 

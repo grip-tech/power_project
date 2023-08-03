@@ -1,5 +1,4 @@
-.serviceMain {
-  /* background-image: url(../../assets/images/grid1.jpg); */
+.homeMain, .otherMain {
   background-size: auto !important;
   background-attachment: fixed !important;
   background-size: cover !important;
@@ -16,7 +15,7 @@
 }
 
 .mainHeading {
-  background-color: rgba(0, 0, 0, 0.356);
+  background-color: rgba(0, 0, 0, 0.408);
   padding-block: 20px;
   padding-inline: 20px 20px;
   display: inline-block;
@@ -76,6 +75,15 @@
 
 .quoteBtn:hover {
   background-color: #a62019 ;
+}
+
+/* Other nav service */
+.otherMain{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
 
 

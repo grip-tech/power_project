@@ -1,8 +1,11 @@
 import React from 'react'
+import Main from '../../components/Main/Main'
 
 function Products() {
   return (
-    <div>Products</div>
+    <div>
+      <Main product/>
+    </div>
   )
 }
 

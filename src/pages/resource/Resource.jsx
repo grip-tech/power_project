@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Main from "../../components/Main/Main";
 
 function Resource() {
   return (
-    <div>Resource</div>
-  )
+    <div>
+      <Main resource />
+    </div>
+  );
 }
 
-export default Resource
+export default Resource;
