@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="home">
       <Main home/>
-      <Lorem />
+      {/* <Lorem /> */}
     </div>
   );
 }
